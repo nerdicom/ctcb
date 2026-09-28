@@ -43,3 +43,14 @@ Architectural and craftsmanship images are labeled as illustrative concepts. The
 The site includes unique page titles and descriptions, canonical links, Organization/Service/Breadcrumb structured data, readable static content, responsive images, `robots.txt`, and `sitemap.xml`.
 
 After public launch, verify the domain in Google Search Console and submit `https://ctcustombuilders.com/sitemap.xml`. Add verified business details and the real phone number when available. Search Console and Google Business Profile setup are separate from publishing the website.
+
+## Brand assets
+
+The matching architectural CT identity is installed in the header and footer of every page.
+
+- `assets/ctcb-logo-v2-dark.svg` — complete logo for light backgrounds.
+- `assets/ctcb-logo-v2-light.svg` — complete logo for dark backgrounds.
+- `assets/ctcb-mark-v2.png` — square monogram.
+- `favicon.ico`, PNG favicon sizes, and Apple touch icon — matching browser and home-screen icons.
+
+The original CT mark was produced with built-in image generation. Website logo lockups use that mark with a readable wordmark, and favicons are resized exports from the same master. SVG lockups include an embedded raster monogram and vector text. Versioned asset names and stylesheet references refresh the branding after deployment.
