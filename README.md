@@ -1,0 +1,45 @@
+# CT Custom Builders
+
+Production-ready static website for **https://ctcustombuilders.com**, serving Bozeman, Big Sky, and Montana’s Gallatin Valley.
+
+## Hostinger deployment
+
+Use a **Custom PHP/HTML** website on Hostinger web or cloud hosting.
+
+1. Open the website's dashboard, then **Advanced → Git**.
+2. Connect GitHub and authorize access to **nerdicom/ctcb**.
+3. Choose this repository and branch **main**.
+4. Set the deployment directory to **public_html** and deploy.
+5. Enable automatic deployment if future changes to `main` should publish automatically.
+
+`index.html` and the `assets`, `services`, and `areas` folders belong directly in `public_html`. There is no build command, package installation, Node.js runtime, or database requirement.
+
+Connect the domain to the Hostinger website and enable its SSL certificate/HTTPS. The site already uses `https://ctcustombuilders.com` for canonical URLs, structured data, and the sitemap.
+
+Hostinger's current guide: https://www.hostinger.com/support/1583302-how-to-deploy-a-git-repository-in-hostinger/
+
+## Pages
+
+- `/` — homepage
+- `/services/custom-homes/`
+- `/services/remodels-additions/`
+- `/services/general-contracting/`
+- `/areas/bozeman/`
+- `/areas/big-sky/`
+- `/areas/gallatin-valley/`
+
+## Content updates
+
+Each route is a standalone HTML page. Shared styles and mobile navigation are in `assets/site.css` and `assets/site.js`. All images are included locally in optimized WebP format.
+
+The current telephone placeholder is **(406) 000-0000** and is not a clickable telephone number. The email address is **ingo@ctcustombuilders.com**, exactly as provided. Replace the placeholder and confirm the email mailbox before promoting the site.
+
+Project inquiry buttons open an email draft. The website does not store submissions or send messages itself.
+
+Architectural and craftsmanship images are labeled as illustrative concepts. There are no fabricated completed projects, reviews, certifications, or years in business.
+
+## Search setup
+
+The site includes unique page titles and descriptions, canonical links, Organization/Service/Breadcrumb structured data, readable static content, responsive images, `robots.txt`, and `sitemap.xml`.
+
+After public launch, verify the domain in Google Search Console and submit `https://ctcustombuilders.com/sitemap.xml`. Add verified business details and the real phone number when available. Search Console and Google Business Profile setup are separate from publishing the website.
