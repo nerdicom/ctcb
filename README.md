@@ -46,14 +46,15 @@ After public launch, verify the domain in Google Search Console and submit `http
 
 ## Brand assets
 
-The matching architectural CT identity is installed in the header and footer of every page.
+The compact CT identity combines an unboxed, interlocking serif monogram with a distinctive serif wordmark. The desktop header logo is 174 pixels wide, with a smaller mobile treatment.
 
-- `assets/ctcb-logo-v2-dark.svg` — complete logo for light backgrounds.
-- `assets/ctcb-logo-v2-light.svg` — complete logo for dark backgrounds.
-- `assets/ctcb-mark-v2.png` — square monogram.
-- `favicon.ico`, PNG favicon sizes, and Apple touch icon — matching browser and home-screen icons.
+- `assets/ctcb-logo-v3-dark.svg` — copper and forest logo for light backgrounds.
+- `assets/ctcb-logo-v3-light.svg` — copper and ivory logo for dark backgrounds.
+- `assets/ctcb-mark-v3.svg` — standalone copper CT monogram.
+- `assets/ctcb-mark-v3.png` — square logo for structured data.
+- `assets/favicon-v3.svg`, `favicon.ico`, PNG favicon sizes, and Apple touch icon — matching browser and home-screen icons.
 
-The original CT mark was produced with built-in image generation. Website logo lockups use that mark with a readable wordmark, and favicons are resized exports from the same master. SVG lockups include an embedded raster monogram and vector text. Versioned asset names and stylesheet references refresh the branding after deployment.
+The identity was created using built-in image generation and converted into scalable SVG paths for crisp rendering. No external fonts or embedded raster images are needed for the logo. Versioned asset names refresh the branding after deployment.
 
 ## Consultation form
 
